@@ -1,0 +1,77 @@
+//
+//  PrefixHeader.pch
+//  TDFDemo
+//
+//  Created by 汤丹峰 on 2017/6/9.
+//  Copyright © 2017年 tangdanfeng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "FACategoryHeader.h"
+#import "BaseUIViewController.h"
+#import "BaseUINavigationController.h"
+#import "MyTool.h"
+#import "AFNetworking.h"
+#import "Masonry.h"
+#import "MJExtension.h"
+#import "UIImageView+WebCache.h"
+#import <CoreText/CoreText.h>
+
+#ifdef DEBUG
+#    define DLog(...) NSLog(__VA_ARGS__)
+#    define DEBUGMODE YES
+#else
+#    define DLog(...) /* */
+#    define DEBUGMODE NO
+#endif
+
+//手机屏幕判断
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
+#define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
+#define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
+
+//字体
+#define MAIN_FONT14    [UIFont systemFontOfSize:14]
+#define MAIN_FONT18    [UIFont systemFontOfSize:18]
+#define FONT_THEME_COLOR        UIColorFromRGB(0x231815) //主题黑色字体
+
+
+//屏幕宽高
+#define mainHeight      [[UIScreen mainScreen] bounds].size.height
+#define mainWidth       [[UIScreen mainScreen] bounds].size.width
+//尺寸比例
+#define scalNum (IS_IPHONE_6P ? mainWidth/375 :1)
+#define HscalNum (mainWidth/375)
+
+/**定义颜色的宏*/
+
+//RGB颜色
+#define TDFColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+//随机色
+#define TDFRandomColor TDFColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+#define UIColorFromRGB(_rgbValue_) [UIColor \
+colorWithRed:((float)((_rgbValue_ & 0xFF0000) >> 16))/255.0 \
+green:((float)((_rgbValue_ & 0xFF00) >> 8))/255.0 \
+blue:((float)(_rgbValue_ & 0xFF))/255.0 alpha:1.0]
+
+#define AlphaColorWithRGBA(_rgbValue_, _alpha_) [UIColor \
+colorWithRed:((float)((_rgbValue_ & 0xFF0000) >> 16))/255.0 \
+green:((float)((_rgbValue_ & 0xFF00) >> 8))/255.0 \
+blue:((float)(_rgbValue_ & 0xFF))/255.0 alpha:_alpha_]
+
+
+#endif /* PrefixHeader_pch */
