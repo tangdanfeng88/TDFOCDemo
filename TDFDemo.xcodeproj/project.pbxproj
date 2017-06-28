@@ -53,6 +53,8 @@
 		C2EEA6FA1F0356420043049D /* ColImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA6F91F0356420043049D /* ColImageCell.m */; };
 		C2EEA6FD1F0357480043049D /* ColLineLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA6FC1F0357480043049D /* ColLineLayoutVC.m */; };
 		C2EEA6FF1F0379940043049D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA6FE1F0379940043049D /* README.md */; };
+		C2EEA7021F0397FB0043049D /* ColStackLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA7011F0397FB0043049D /* ColStackLayoutVC.m */; };
+		C2EEA7051F0398660043049D /* StackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA7041F0398660043049D /* StackLayout.m */; };
 		C2EF19551EEA2D68006CABB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2EF19541EEA2D68006CABB6 /* Assets.xcassets */; };
 		C2EF19631EEA2D68006CABB6 /* TDFDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EF19621EEA2D68006CABB6 /* TDFDemoTests.m */; };
 		C2EF196E1EEA2D68006CABB6 /* TDFDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EF196D1EEA2D68006CABB6 /* TDFDemoUITests.m */; };
@@ -197,6 +199,10 @@
 		C2EEA6FB1F0357480043049D /* ColLineLayoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColLineLayoutVC.h; sourceTree = "<group>"; };
 		C2EEA6FC1F0357480043049D /* ColLineLayoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColLineLayoutVC.m; sourceTree = "<group>"; };
 		C2EEA6FE1F0379940043049D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		C2EEA7001F0397FB0043049D /* ColStackLayoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColStackLayoutVC.h; sourceTree = "<group>"; };
+		C2EEA7011F0397FB0043049D /* ColStackLayoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColStackLayoutVC.m; sourceTree = "<group>"; };
+		C2EEA7031F0398660043049D /* StackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackLayout.h; sourceTree = "<group>"; };
+		C2EEA7041F0398660043049D /* StackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackLayout.m; sourceTree = "<group>"; };
 		C2EF19451EEA2D68006CABB6 /* TDFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2EF19541EEA2D68006CABB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2EF19591EEA2D68006CABB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -457,6 +463,10 @@
 		C2EEA6F21F0353DB0043049D /* ColStackLayout */ = {
 			isa = PBXGroup;
 			children = (
+				C2EEA7001F0397FB0043049D /* ColStackLayoutVC.h */,
+				C2EEA7011F0397FB0043049D /* ColStackLayoutVC.m */,
+				C2EEA7031F0398660043049D /* StackLayout.h */,
+				C2EEA7041F0398660043049D /* StackLayout.m */,
 			);
 			path = ColStackLayout;
 			sourceTree = "<group>";
@@ -995,6 +1005,7 @@
 				C26058C01EF0E9FB00933743 /* AnimationLabel.m in Sources */,
 				C2EF19F31EEA2E78006CABB6 /* MJRefreshAutoStateFooter.m in Sources */,
 				C2EF19FE1EEA2E78006CABB6 /* UIScrollView+MJRefresh.m in Sources */,
+				C2EEA7051F0398660043049D /* StackLayout.m in Sources */,
 				C2EF19E31EEA2E78006CABB6 /* MeVC.m in Sources */,
 				C2EF1A051EEA50CE006CABB6 /* HomeVC.m in Sources */,
 				C2EF19E91EEA2E78006CABB6 /* UIView+Coordinate.m in Sources */,
@@ -1053,6 +1064,7 @@
 				C26058FA1EF3FDC600933743 /* TabTransWetVC.m in Sources */,
 				C260590F1EF4CD7E00933743 /* SlideCCAnimaionController.m in Sources */,
 				C26058B51EEFE8FA00933743 /* CoreTextLinkData.m in Sources */,
+				C2EEA7021F0397FB0043049D /* ColStackLayoutVC.m in Sources */,
 				C26058F41EF3FD7E00933743 /* TabTransitionMeVC.m in Sources */,
 				C2EF19F61EEA2E78006CABB6 /* MJRefreshBackStateFooter.m in Sources */,
 				C2EF19FB1EEA2E78006CABB6 /* MJRefreshConst.m in Sources */,
