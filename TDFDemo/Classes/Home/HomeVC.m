@@ -39,7 +39,11 @@
                 @{@"title" : @"Nav\n转场动画", @"action" : @"NavTransitionVC"},
                 @{@"title" : @"Modal\n转场动画", @"action" : @"ModalTransitionVC"},
                 @{@"title" : @"Tab\n转场动画", @"action" : @"TabTransitionVC"},
-                @{@"title" : @"自定制VC\n转场动画", @"action" : @"CustomContainerTransitionVC"}];
+                @{@"title" : @"自定制VC\n转场动画", @"action" : @"CustomContainerTransitionVC"},
+                @{@"title" : @"collection\n线性布局", @"action" : @"ColLineLayoutVC"},
+                @{@"title" : @"collection\n堆布局", @"action" : @"ColStackLayoutVC"},
+                @{@"title" : @"collection\n圆周布局", @"action" : @"ColCircleLayoutVC"},
+                @{@"title" : @"collection\n瀑布流布局", @"action" : @"ColWaterFlowLayoutVC"}];
     
     [self setupSubViews];
 }

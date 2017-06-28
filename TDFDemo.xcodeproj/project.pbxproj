@@ -49,6 +49,10 @@
 		C26059121EF4D18700933743 /* SDEPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C26059111EF4D18700933743 /* SDEPercentDrivenInteractiveTransition.m */; };
 		C26059151EF4D3C800933743 /* ContainerTransitionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = C26059141EF4D3C800933743 /* ContainerTransitionContext.m */; };
 		C26059181EF52DFC00933743 /* SDEContainerTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26059171EF52DFC00933743 /* SDEContainerTransitionDelegate.m */; };
+		C2EEA6F71F0355E50043049D /* LineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA6F61F0355E50043049D /* LineLayout.m */; };
+		C2EEA6FA1F0356420043049D /* ColImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA6F91F0356420043049D /* ColImageCell.m */; };
+		C2EEA6FD1F0357480043049D /* ColLineLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA6FC1F0357480043049D /* ColLineLayoutVC.m */; };
+		C2EEA6FF1F0379940043049D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA6FE1F0379940043049D /* README.md */; };
 		C2EF19551EEA2D68006CABB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2EF19541EEA2D68006CABB6 /* Assets.xcassets */; };
 		C2EF19631EEA2D68006CABB6 /* TDFDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EF19621EEA2D68006CABB6 /* TDFDemoTests.m */; };
 		C2EF196E1EEA2D68006CABB6 /* TDFDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EF196D1EEA2D68006CABB6 /* TDFDemoUITests.m */; };
@@ -186,6 +190,13 @@
 		C26059141EF4D3C800933743 /* ContainerTransitionContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerTransitionContext.m; sourceTree = "<group>"; };
 		C26059161EF52DFC00933743 /* SDEContainerTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDEContainerTransitionDelegate.h; sourceTree = "<group>"; };
 		C26059171EF52DFC00933743 /* SDEContainerTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDEContainerTransitionDelegate.m; sourceTree = "<group>"; };
+		C2EEA6F51F0355E50043049D /* LineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineLayout.h; sourceTree = "<group>"; };
+		C2EEA6F61F0355E50043049D /* LineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineLayout.m; sourceTree = "<group>"; };
+		C2EEA6F81F0356420043049D /* ColImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColImageCell.h; sourceTree = "<group>"; };
+		C2EEA6F91F0356420043049D /* ColImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColImageCell.m; sourceTree = "<group>"; };
+		C2EEA6FB1F0357480043049D /* ColLineLayoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColLineLayoutVC.h; sourceTree = "<group>"; };
+		C2EEA6FC1F0357480043049D /* ColLineLayoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColLineLayoutVC.m; sourceTree = "<group>"; };
+		C2EEA6FE1F0379940043049D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		C2EF19451EEA2D68006CABB6 /* TDFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2EF19541EEA2D68006CABB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2EF19591EEA2D68006CABB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -423,6 +434,40 @@
 			path = CustomTabTransition;
 			sourceTree = "<group>";
 		};
+		C2EEA6F01F0353DB0043049D /* ColCircleLayout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ColCircleLayout;
+			sourceTree = "<group>";
+		};
+		C2EEA6F11F0353DB0043049D /* ColLineLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C2EEA6F51F0355E50043049D /* LineLayout.h */,
+				C2EEA6F61F0355E50043049D /* LineLayout.m */,
+				C2EEA6F81F0356420043049D /* ColImageCell.h */,
+				C2EEA6F91F0356420043049D /* ColImageCell.m */,
+				C2EEA6FB1F0357480043049D /* ColLineLayoutVC.h */,
+				C2EEA6FC1F0357480043049D /* ColLineLayoutVC.m */,
+			);
+			path = ColLineLayout;
+			sourceTree = "<group>";
+		};
+		C2EEA6F21F0353DB0043049D /* ColStackLayout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ColStackLayout;
+			sourceTree = "<group>";
+		};
+		C2EEA6F41F03559C0043049D /* ColWaterFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ColWaterFlowLayout;
+			sourceTree = "<group>";
+		};
 		C2EF193C1EEA2D68006CABB6 = {
 			isa = PBXGroup;
 			children = (
@@ -460,6 +505,7 @@
 		C2EF19481EEA2D68006CABB6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C2EEA6FE1F0379940043049D /* README.md */,
 				C2EF19541EEA2D68006CABB6 /* Assets.xcassets */,
 				C2EF19591EEA2D68006CABB6 /* Info.plist */,
 				C2EF1A001EEA2EE5006CABB6 /* PrefixHeader.pch */,
@@ -499,6 +545,10 @@
 		C2EF197C1EEA2E78006CABB6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C2EEA6F41F03559C0043049D /* ColWaterFlowLayout */,
+				C2EEA6F11F0353DB0043049D /* ColLineLayout */,
+				C2EEA6F01F0353DB0043049D /* ColCircleLayout */,
+				C2EEA6F21F0353DB0043049D /* ColStackLayout */,
 				C26058D21EF2865700933743 /* CustomNavTransition */,
 				C26058D11EF2865700933743 /* CustomModalTransition */,
 				C26058D31EF2865700933743 /* CustomTabTransition */,
@@ -967,6 +1017,7 @@
 				C2EF19E81EEA2E78006CABB6 /* UIBarButtonItem+Extension.m in Sources */,
 				C26059181EF52DFC00933743 /* SDEContainerTransitionDelegate.m in Sources */,
 				C2EF19EE1EEA2E78006CABB6 /* MJRefreshComponent.m in Sources */,
+				C2EEA6FA1F0356420043049D /* ColImageCell.m in Sources */,
 				C260590C1EF4BF6100933743 /* CCImageVC.m in Sources */,
 				C2EF19E41EEA2E78006CABB6 /* AppDelegate.m in Sources */,
 				C22A78C41EEAEE5A00B4B66F /* UIImage+Extension.m in Sources */,
@@ -989,6 +1040,7 @@
 				C2EF19E11EEA2E78006CABB6 /* BaseUIViewController.m in Sources */,
 				C26059001EF3FFAD00933743 /* SlideTabAnimationController.m in Sources */,
 				C26058B21EEF725F00933743 /* CoreTextImageData.m in Sources */,
+				C2EEA6FD1F0357480043049D /* ColLineLayoutVC.m in Sources */,
 				C2EF19F91EEA2E78006CABB6 /* MJRefreshStateHeader.m in Sources */,
 				C2EF19FD1EEA2E78006CABB6 /* UIScrollView+MJExtension.m in Sources */,
 				C22A78C81EEB904700B4B66F /* InfiniteScrollVC.m in Sources */,
@@ -997,6 +1049,7 @@
 				C260589C1EEE785400933743 /* CoretextVC.m in Sources */,
 				C26058BD1EF0E91900933743 /* TextKitVC.m in Sources */,
 				C26058E21EF2966000933743 /* SDENavigationDelegate.m in Sources */,
+				C2EEA6FF1F0379940043049D /* README.md in Sources */,
 				C26058FA1EF3FDC600933743 /* TabTransWetVC.m in Sources */,
 				C260590F1EF4CD7E00933743 /* SlideCCAnimaionController.m in Sources */,
 				C26058B51EEFE8FA00933743 /* CoreTextLinkData.m in Sources */,
@@ -1004,6 +1057,7 @@
 				C2EF19F61EEA2E78006CABB6 /* MJRefreshBackStateFooter.m in Sources */,
 				C2EF19FB1EEA2E78006CABB6 /* MJRefreshConst.m in Sources */,
 				C26059121EF4D18700933743 /* SDEPercentDrivenInteractiveTransition.m in Sources */,
+				C2EEA6F71F0355E50043049D /* LineLayout.m in Sources */,
 				C2EF1A0B1EEA5460006CABB6 /* MaskVC.m in Sources */,
 				C2EF19E51EEA2E78006CABB6 /* main.m in Sources */,
 				C26058A81EEE88D100933743 /* CTDisplayView.m in Sources */,
