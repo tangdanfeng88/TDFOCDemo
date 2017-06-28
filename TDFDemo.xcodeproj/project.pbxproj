@@ -57,6 +57,11 @@
 		C2EEA7051F0398660043049D /* StackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA7041F0398660043049D /* StackLayout.m */; };
 		C2EEA7081F03A1C50043049D /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA7071F03A1C50043049D /* CircleLayout.m */; };
 		C2EEA70B1F03A1F40043049D /* ColCircleLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA70A1F03A1F40043049D /* ColCircleLayoutVC.m */; };
+		C2EEA70E1F03A6780043049D /* ColWaterFlowLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA70D1F03A6780043049D /* ColWaterFlowLayoutVC.m */; };
+		C2EEA7111F03A6A40043049D /* ColShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA7101F03A6A40043049D /* ColShopCell.m */; };
+		C2EEA7141F03A6C40043049D /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA7131F03A6C40043049D /* WaterFlowLayout.m */; };
+		C2EEA7171F03A6E80043049D /* ColShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA7161F03A6E80043049D /* ColShopModel.m */; };
+		C2EEA7191F03B3B80043049D /* collection.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2EEA7181F03B3B80043049D /* collection.plist */; };
 		C2EF19551EEA2D68006CABB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2EF19541EEA2D68006CABB6 /* Assets.xcassets */; };
 		C2EF19631EEA2D68006CABB6 /* TDFDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EF19621EEA2D68006CABB6 /* TDFDemoTests.m */; };
 		C2EF196E1EEA2D68006CABB6 /* TDFDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EF196D1EEA2D68006CABB6 /* TDFDemoUITests.m */; };
@@ -209,6 +214,15 @@
 		C2EEA7071F03A1C50043049D /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
 		C2EEA7091F03A1F40043049D /* ColCircleLayoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColCircleLayoutVC.h; sourceTree = "<group>"; };
 		C2EEA70A1F03A1F40043049D /* ColCircleLayoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColCircleLayoutVC.m; sourceTree = "<group>"; };
+		C2EEA70C1F03A6780043049D /* ColWaterFlowLayoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColWaterFlowLayoutVC.h; sourceTree = "<group>"; };
+		C2EEA70D1F03A6780043049D /* ColWaterFlowLayoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColWaterFlowLayoutVC.m; sourceTree = "<group>"; };
+		C2EEA70F1F03A6A40043049D /* ColShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColShopCell.h; sourceTree = "<group>"; };
+		C2EEA7101F03A6A40043049D /* ColShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColShopCell.m; sourceTree = "<group>"; };
+		C2EEA7121F03A6C40043049D /* WaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayout.h; sourceTree = "<group>"; };
+		C2EEA7131F03A6C40043049D /* WaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayout.m; sourceTree = "<group>"; };
+		C2EEA7151F03A6E80043049D /* ColShopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColShopModel.h; sourceTree = "<group>"; };
+		C2EEA7161F03A6E80043049D /* ColShopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColShopModel.m; sourceTree = "<group>"; };
+		C2EEA7181F03B3B80043049D /* collection.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = collection.plist; sourceTree = "<group>"; };
 		C2EF19451EEA2D68006CABB6 /* TDFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2EF19541EEA2D68006CABB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2EF19591EEA2D68006CABB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -484,6 +498,15 @@
 		C2EEA6F41F03559C0043049D /* ColWaterFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
+				C2EEA7181F03B3B80043049D /* collection.plist */,
+				C2EEA70C1F03A6780043049D /* ColWaterFlowLayoutVC.h */,
+				C2EEA70D1F03A6780043049D /* ColWaterFlowLayoutVC.m */,
+				C2EEA70F1F03A6A40043049D /* ColShopCell.h */,
+				C2EEA7101F03A6A40043049D /* ColShopCell.m */,
+				C2EEA7121F03A6C40043049D /* WaterFlowLayout.h */,
+				C2EEA7131F03A6C40043049D /* WaterFlowLayout.m */,
+				C2EEA7151F03A6E80043049D /* ColShopModel.h */,
+				C2EEA7161F03A6E80043049D /* ColShopModel.m */,
 			);
 			path = ColWaterFlowLayout;
 			sourceTree = "<group>";
@@ -938,6 +961,7 @@
 				C2EF19FA1EEA2E78006CABB6 /* MJRefresh.bundle in Resources */,
 				C22A78D01EEB90F700B4B66F /* newses.plist in Resources */,
 				C26058AA1EEE8A4400933743 /* coretext.plist in Resources */,
+				C2EEA7191F03B3B80043049D /* collection.plist in Resources */,
 				C2EF19551EEA2D68006CABB6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1017,6 +1041,7 @@
 				C2EF19FE1EEA2E78006CABB6 /* UIScrollView+MJRefresh.m in Sources */,
 				C2EEA7051F0398660043049D /* StackLayout.m in Sources */,
 				C2EF19E31EEA2E78006CABB6 /* MeVC.m in Sources */,
+				C2EEA7111F03A6A40043049D /* ColShopCell.m in Sources */,
 				C2EF1A051EEA50CE006CABB6 /* HomeVC.m in Sources */,
 				C2EF19E91EEA2E78006CABB6 /* UIView+Coordinate.m in Sources */,
 				C2EF19F41EEA2E78006CABB6 /* MJRefreshBackGifFooter.m in Sources */,
@@ -1027,6 +1052,7 @@
 				C26058AD1EEE8DDA00933743 /* ContentModel.m in Sources */,
 				C260589F1EEE887200933743 /* CTFrameParserConfig.m in Sources */,
 				C2EF19F71EEA2E78006CABB6 /* MJRefreshGifHeader.m in Sources */,
+				C2EEA7171F03A6E80043049D /* ColShopModel.m in Sources */,
 				C26058FD1EF3FF9600933743 /* SDETabBarVCDelegate.m in Sources */,
 				C2EF19E01EEA2E78006CABB6 /* BaseUINavigationController.m in Sources */,
 				C22A78CB1EEB909D00B4B66F /* ISModel.m in Sources */,
@@ -1036,6 +1062,7 @@
 				C2EF19EF1EEA2E78006CABB6 /* MJRefreshFooter.m in Sources */,
 				C26059091EF4BF4F00933743 /* CCDhcVC.m in Sources */,
 				C2EF19E81EEA2E78006CABB6 /* UIBarButtonItem+Extension.m in Sources */,
+				C2EEA70E1F03A6780043049D /* ColWaterFlowLayoutVC.m in Sources */,
 				C2EEA7081F03A1C50043049D /* CircleLayout.m in Sources */,
 				C26059181EF52DFC00933743 /* SDEContainerTransitionDelegate.m in Sources */,
 				C2EF19EE1EEA2E78006CABB6 /* MJRefreshComponent.m in Sources */,
@@ -1078,6 +1105,7 @@
 				C26058B51EEFE8FA00933743 /* CoreTextLinkData.m in Sources */,
 				C2EEA7021F0397FB0043049D /* ColStackLayoutVC.m in Sources */,
 				C26058F41EF3FD7E00933743 /* TabTransitionMeVC.m in Sources */,
+				C2EEA7141F03A6C40043049D /* WaterFlowLayout.m in Sources */,
 				C2EF19F61EEA2E78006CABB6 /* MJRefreshBackStateFooter.m in Sources */,
 				C2EF19FB1EEA2E78006CABB6 /* MJRefreshConst.m in Sources */,
 				C26059121EF4D18700933743 /* SDEPercentDrivenInteractiveTransition.m in Sources */,

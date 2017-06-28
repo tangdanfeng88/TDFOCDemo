@@ -19,6 +19,7 @@
 #import "AFNetworking.h"
 #import "Masonry.h"
 #import "MJExtension.h"
+#import "MJRefresh.h"
 #import "UIImageView+WebCache.h"
 #import <CoreText/CoreText.h>
 
