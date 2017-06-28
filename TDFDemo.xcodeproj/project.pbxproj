@@ -55,6 +55,8 @@
 		C2EEA6FF1F0379940043049D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA6FE1F0379940043049D /* README.md */; };
 		C2EEA7021F0397FB0043049D /* ColStackLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA7011F0397FB0043049D /* ColStackLayoutVC.m */; };
 		C2EEA7051F0398660043049D /* StackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA7041F0398660043049D /* StackLayout.m */; };
+		C2EEA7081F03A1C50043049D /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA7071F03A1C50043049D /* CircleLayout.m */; };
+		C2EEA70B1F03A1F40043049D /* ColCircleLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEA70A1F03A1F40043049D /* ColCircleLayoutVC.m */; };
 		C2EF19551EEA2D68006CABB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2EF19541EEA2D68006CABB6 /* Assets.xcassets */; };
 		C2EF19631EEA2D68006CABB6 /* TDFDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EF19621EEA2D68006CABB6 /* TDFDemoTests.m */; };
 		C2EF196E1EEA2D68006CABB6 /* TDFDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EF196D1EEA2D68006CABB6 /* TDFDemoUITests.m */; };
@@ -203,6 +205,10 @@
 		C2EEA7011F0397FB0043049D /* ColStackLayoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColStackLayoutVC.m; sourceTree = "<group>"; };
 		C2EEA7031F0398660043049D /* StackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackLayout.h; sourceTree = "<group>"; };
 		C2EEA7041F0398660043049D /* StackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackLayout.m; sourceTree = "<group>"; };
+		C2EEA7061F03A1C50043049D /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		C2EEA7071F03A1C50043049D /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
+		C2EEA7091F03A1F40043049D /* ColCircleLayoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColCircleLayoutVC.h; sourceTree = "<group>"; };
+		C2EEA70A1F03A1F40043049D /* ColCircleLayoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColCircleLayoutVC.m; sourceTree = "<group>"; };
 		C2EF19451EEA2D68006CABB6 /* TDFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2EF19541EEA2D68006CABB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2EF19591EEA2D68006CABB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -443,6 +449,10 @@
 		C2EEA6F01F0353DB0043049D /* ColCircleLayout */ = {
 			isa = PBXGroup;
 			children = (
+				C2EEA7061F03A1C50043049D /* CircleLayout.h */,
+				C2EEA7071F03A1C50043049D /* CircleLayout.m */,
+				C2EEA7091F03A1F40043049D /* ColCircleLayoutVC.h */,
+				C2EEA70A1F03A1F40043049D /* ColCircleLayoutVC.m */,
 			);
 			path = ColCircleLayout;
 			sourceTree = "<group>";
@@ -1026,6 +1036,7 @@
 				C2EF19EF1EEA2E78006CABB6 /* MJRefreshFooter.m in Sources */,
 				C26059091EF4BF4F00933743 /* CCDhcVC.m in Sources */,
 				C2EF19E81EEA2E78006CABB6 /* UIBarButtonItem+Extension.m in Sources */,
+				C2EEA7081F03A1C50043049D /* CircleLayout.m in Sources */,
 				C26059181EF52DFC00933743 /* SDEContainerTransitionDelegate.m in Sources */,
 				C2EF19EE1EEA2E78006CABB6 /* MJRefreshComponent.m in Sources */,
 				C2EEA6FA1F0356420043049D /* ColImageCell.m in Sources */,
@@ -1045,6 +1056,7 @@
 				C26058DC1EF2870800933743 /* TabTransitionVC.m in Sources */,
 				C2EF19F01EEA2E78006CABB6 /* MJRefreshHeader.m in Sources */,
 				C26058F71EF3FDA300933743 /* TabTransitionDisVC.m in Sources */,
+				C2EEA70B1F03A1F40043049D /* ColCircleLayoutVC.m in Sources */,
 				C22A78CE1EEB90BB00B4B66F /* ISCell.m in Sources */,
 				C26059031EF4BF2300933743 /* CCDcVC.m in Sources */,
 				C26058D91EF286EF00933743 /* ModalTransitionVC.m in Sources */,
